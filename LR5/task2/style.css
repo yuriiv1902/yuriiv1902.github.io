@@ -1,0 +1,42 @@
+
+body{
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  }
+.box{
+  width: 560px;
+  height: 450px;
+  position: relative;
+  margin: auto;
+  background-color: #80cdc6;
+}
+.water{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+.world{
+  position: absolute;;
+  height: 350px;
+  width: 100%;
+  left: 0px;
+  bottom: 10px;
+  z-index: 0;
+}
+.ship{
+  position: absolute;
+  width: 100%;
+  right: 210px;
+  bottom: 40px;
+  z-index: 4;
+  height: 115px;
+}
+.clouds{
+position: absolute;;
+width: 100%;
+height: 120px;
+left: 110px;
+}

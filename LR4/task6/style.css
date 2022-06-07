@@ -1,0 +1,17 @@
+div{
+	border-top: 5px solid black;
+	margin-top: 70px;
+	position: relative;
+	z-index: 0;
+}
+h1{
+	position: absolute;
+	margin-right: 50%;
+	margin-left: 50%;
+	top: 30px;
+	background-color: white;
+	z-index: 10;
+	padding: 0px 7px;
+	font-weight: 300;
+
+}	

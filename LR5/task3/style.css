@@ -1,0 +1,52 @@
+.fullwarp{
+	border: 1px solid black;
+	width: 1050px;
+	margin: 5px auto;
+}
+.header{
+	width: 960px;
+	margin: 20px auto;
+	border: 2px solid black;
+	padding: 25px;
+	text-align: center;
+}
+/*WRAP*/
+.wrap{
+	width: 960px;
+	margin: 20px auto;
+	overflow: hidden;
+	border: 2px dotted black;
+	padding: 20px;
+}
+/*MAIN CONTENT*/
+.sidebar{
+	float: right;
+	width: 40%;
+}
+.main{
+	float: left;
+	width: 50%;
+}
+.main, .sidebar{
+	text-align: center;
+	box-sizing: border-box;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 10px;
+	min-height: 700px;
+	text-align: center;	
+}
+/*FOOTER*/
+.footer
+{	
+	width: 960px;
+	text-align: center;
+	border: 2px solid black;
+	margin: 20px auto;
+	padding: 25px;
+}
+
+
+
+
+

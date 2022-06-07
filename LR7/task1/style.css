@@ -1,0 +1,43 @@
+h1{
+	text-align: center;
+	height: 80px;
+	margin: 0 auto;
+	width: 200px;
+	font-family: 'Arial',sans-serif;
+	background-color: #A97AFF;
+	background-image: linear-gradient(320deg,#A97AFF,#7AFFD6);
+	border-radius: 7px;
+	box-shadow: 5px 5px 20px #A97AFF;
+
+}
+a{
+	display:inline-block;
+	width: 300px ;
+	height: 255px;
+	margin: 25px;
+	
+}
+.social-media{
+	width:1450px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.icon{
+	background: url(image.png);
+	background-repeat: no-repeat;
+	background-size: 600px 510px;
+}
+.facebook{
+	background-position: 0 -255px ;
+}
+.instagram{
+	background-position:-300px -255px;
+}
+.discord{
+	background-position: -300px 0;
+}
+a:hover{
+	background-color: lightgrey;
+	box-shadow: 7px 7px 15px thistle ;
+}	

@@ -1,0 +1,202 @@
+body{
+	text-align: center;
+	font-family: "Verdana", sans-serif;
+}
+.title{
+	padding: 35px 0px;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+}
+
+/*MAIN BOX*/
+
+.main_box{
+	position: relative;
+	margin: 50px auto; 
+	border: 2px solid #A9A9A9;
+	width: 1100px ;
+	height: 500px ; 
+}
+.product_box{
+	position: relative;
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 275px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.main_box .product_box:nth-child(-n+3){
+	border-right: 2px solid #A9A9A9;
+}
+
+/*CONTENT BOX*/
+.brend_box{
+	padding-top: 20px;
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #A9A9A9;
+}
+.brend_box a{
+	font-weight: bold;
+	font-family: "Arial",sans-serif;
+	color: #A9A9A9;
+	text-decoration: none;
+}
+.brend_box a:hover{
+	color: yellowgreen;
+	text-decoration: underline;
+
+/*IMAGES AND NAME PRODUCT*/
+}
+img{
+	width: auto;
+	height: 90%;
+	margin-top: 20px;
+}
+.img_box{
+	padding-top: 20px;
+	height: 200px;
+}
+.img_box:hover{
+	border: 7px solid #A9A9A9;
+	height: 186px;
+}
+.product_name{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	display:-webkit-box;
+	word-wrap: break-word;
+	-webkit-box-orient: vertical;
+	padding: 0px 25px;
+	font-family: "Arial",sans-serif;
+	color: blue;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*PRICE AND BUTTON*/
+.price{
+	font-family: "Arial",sans-serif;
+	font-weight: 530;
+	color: black;
+	padding: 22px  10px;
+	font-size: 20px;
+	min-height: 20px;
+}
+.old_price{
+	text-decoration: line-through;
+	font-size: 15px;
+	padding-right: 10px;
+
+}
+.button_buy{
+	margin: 0px auto;
+	width: 140px;
+	min-height: 38px;
+}
+.button_buy a{
+	line-height:2em;
+	display: block;
+	width: 140px;
+	height: 38px;
+	text-transform: uppercase;
+	font-family: "Arial",sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	background-color: yellow;
+	text-decoration: none;
+	color: black;
+}
+
+
+.not_available a{
+	line-height: 1.1em;
+	background-color: purple;
+	color: white;
+}
+.available a:hover{
+	background-color: lightgrey;
+	border: 2px solid darkgray;
+	color: green;
+}
+.available a:active{
+	color: indianred;
+	background-color: thistle;
+}
+
+/*Arrows*/
+.arrows{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border: 2px solid #A9A9A9;
+	border-radius: 27px;
+}
+.arrows span{
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 27px;
+	border: 2px solid #A9A9A9;
+	background-color: white;
+	
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.8em;
+	color: #A9A9A9;
+}
+.arrows span:hover{
+	border-color: black;
+	background-color: lightgrey;
+	color: black;
+}
+.arrows_left{
+	left: -25px;
+	top: 74px;
+}
+.arrows_right{
+	right: -25px;
+	top: 74px;
+}
+
+/*CIRCLE*/
+.information_circle{
+	overflow: hidden;
+	position: absolute;
+	height: 40px;
+	width: 80px;
+	border-radius: 70px;
+	border: 5px solid white;
+	top: -55px;
+	left: 165px;
+	padding: 25px 5px;
+}
+.information_circle span{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white; 
+	font-family: Arial, sans-serif;
+	line-height: 1.2em;
+}
+.novelty{
+	line-height: 2.2em;
+	background-color: yellowgreen;
+}
+.hit_sales{
+	line-height: 1.2em;
+	background-color: skyblue;
+}
+
+
+
+
+
+
+

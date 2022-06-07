@@ -1,0 +1,48 @@
+.main_box{
+	position: relative;
+	border: 5px solid black;
+	margin: 10px;
+	width: 150px;
+	height: 50px;
+	z-index: 0;
+}
+.main_box::after{
+	top: 15px;
+	background-color: black;
+	content: "";
+	color: black;
+	position: absolute;
+	height: 20px;
+	width: 7px;
+	left: 155px;
+}
+.red::before{
+	content: "";
+	position: absolute;
+	background-color: red;
+	height: 100%;
+	z-index: 10;
+	width: 30%;
+	top:0;
+	left: 0;
+}
+.yellow::before{
+	content: "";
+	position: absolute;
+	background-color: yellow;
+	height: 100%;
+	z-index: 10;
+	width: 60%;
+	top:0;
+	left: 0;
+}
+.green::before{
+	content: "";
+	position: absolute;
+	background-color: green;
+	height: 100%;
+	z-index: 10;
+	width: 100%;
+	top:0;
+	left: 0;
+}
