@@ -1,0 +1,231 @@
+/* main */
+.main {
+	font-family: "Gill Sans", sans-serif;
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	margin: 40px auto;
+	background: #FFFAFA;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* HEADER*/
+.header{
+	padding: 50px 0px;
+}
+
+.header h1,
+.header h2{
+	text-align: center;
+}	
+
+/*NAVIGATION*/
+.page-navigation{
+	background-color: #222;
+	border-color: #101010;
+	min-height: 64px;
+}
+.page-navigation li{
+	list-style-type: none;
+	float: left;
+	width: 150px;
+}
+.page-navigation a{
+	text-decoration: none;
+	display: block;
+	color: #9d9d9d;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+.page-navigation a:hover{
+	color: thistle;
+	background-color: black;
+}
+
+/* main content */
+.main-content {
+	padding-top: 120px;
+	padding-right: 95px;
+	padding-bottom: 70px;
+}
+.developer {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 17px;
+	color: #808080;
+	margin-bottom: 20px;
+}
+.name {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 55px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+.experience {
+	margin-top: 30px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 10px;
+	color: #808080;
+}
+.text3 {
+	margin-left: -20px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	color: #800080;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	width: 509px;
+	height: 120px;
+}
+.format {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #808080;
+}
+.date {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
+	margin-bottom: 6px;
+}
+.enginer {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #808080;
+}
+.education {
+	padding-bottom: 100px;
+}
+/* Sidebar */
+
+.sidebar {
+	margin-right: 88px;
+	width: 370px;
+	height: 100%px;
+	background: #BA8AFD;
+}
+/* Photo thistle*/
+.img {
+	width: 370px;
+	height: 354px;
+	left: 40px;
+	top: 80px;
+}
+/* Contact */
+
+.style {
+	margin-top: 51px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #200852;
+}
+.e {
+	margin-left: 0px;
+	margin-right: 10px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+
+	color: #C5C5C5;
+}
+.c {
+	margin-left: 0px;
+	margin-right: 10px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+
+	color: #400852;
+}
+.style2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #200852;
+}
+.style3 {
+	margin-top: 47px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #200852;
+}
+.href {
+	margin-left: 5px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	color: 	#000080;
+
+	opacity: 0.5;
+}
+.skills_red {
+	margin-left: 15px;
+	/*font-style: normal;
+	font-weight: normal;*/
+	font-size: 10px;
+	line-height: 15px;
+	color: 	#000000;
+}
+.skills {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #696969;
+}
+/*PORTFOLIO*/
+.portfolio-container h2{
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+
+}
+.portfolio-container{
+	width: 300px;
+	line-height: 25px;
+}
+.portfolio-container a {
+	text-decoration: none;
+	color: blue;
+}
+.portfolio-container a:hover{
+	color: red;
+	background-color: thistle;
+}
